@@ -5,6 +5,7 @@ public class Animal{
     private String ownerName;
     private String diagnosis;
     private Boolean isVactinated;
+    private final String TYPE=getClass().getSimpleName();
 
     public Animal(){
 
@@ -21,8 +22,9 @@ public class Animal{
     }
     public void setIsVactinated(Boolean isVactinated){
         this.isVactinated = isVactinated;
-
-
+    }
+    public String getType(){
+        return TYPE;
     }
 
 }

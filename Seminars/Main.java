@@ -7,6 +7,7 @@ public class Main {
         System.out.println(barsic.isVactinated());
         barsic.setIsVactinated(true);
         System.out.println(barsic.isVactinated());
+        System.out.println(barsic.getType());
 
     }
 }
