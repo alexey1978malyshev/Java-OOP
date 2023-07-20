@@ -2,10 +2,11 @@ package Seminars;
 
 public class Eagle extends Animal{
     private int wingspan;
-    protected void fly(String name){
-        System.out.println(name + " полетел в степь за сусликами..");
+
+    protected void move(String name){
+        System.out.println(nameAnimal + " полетел в степь за сусликами..");
     }
-    public void toTheHunt(){
-        fly(nameAnimal);
+    public void toFly(){
+        move(nameAnimal);
     }
 }

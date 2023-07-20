@@ -29,10 +29,11 @@ public class Main {
 
 //        System.out.println(lstAnimals);
 //        System.out.println(musya.getType("с арг "));
-        cat.huntFood();
+        cat.toGo();
         dog.goForWalk();
-        eagle.toTheHunt();
+        eagle.toFly();
         salmon.swimToHome();
+
 
 
     }

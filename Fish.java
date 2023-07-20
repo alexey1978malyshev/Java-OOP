@@ -2,12 +2,13 @@ package Seminars;
 
 public class Fish extends Animal{
     private int length;
-    protected void swim(String animalName){
+    protected void move(String animalName){
         System.out.println(animalName + " поплыл домой метать икру..");
     }
 
+
     public void swimToHome(){
-        swim(nameAnimal);
+        move(nameAnimal);
     }
 
 }

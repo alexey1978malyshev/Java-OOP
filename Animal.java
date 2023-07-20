@@ -38,15 +38,19 @@ public class Animal {
         return args + TYPE;
     }
 
-    protected void toGo(String animalname){
-        System.out.println(animalname + " пошел..");
-    }
-    protected void fly(String animalName){
-        System.out.println(animalName + " полетел..");
-    }
-    protected void swim(String animalName){
-        System.out.println(animalName + " поплыл..");
-    }
+//    protected void toGo(String animalname){
+//        System.out.println(animalname + " пошел..");
+//    }
+//    protected void fly(String animalName){
+//        System.out.println(animalName + " полетел..");
+//    }
+//    protected void swim(String animalName){
+//        System.out.println(animalName + " поплыл..");
+//    }
 
+    protected void move(String nameAnimal){
+        this.nameAnimal = nameAnimal;
+        System.out.println(nameAnimal + "пошел");
 
+    }
 }

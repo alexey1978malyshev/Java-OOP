@@ -23,13 +23,21 @@ public class Cat extends Animal{
     private void sleep(){
         System.out.println("Кот уснул");
     }
-    public void huntFood(){
-//        wakeUp();
-//        findFood();
-//        eat();
-//        sleep();
-        toGo(nameAnimal);
+
+    protected void move (String name){
+        System.out.println(nameAnimal + " пошел на охоту");
     }
+    public void toGo(){
+        move(name);
+    }
+
+//    public void huntFood(){
+////        wakeUp();
+////        findFood();
+////        eat();
+////        sleep();
+//
+//    }
 
 
 }
