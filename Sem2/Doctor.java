@@ -1,6 +1,6 @@
 package Seminars.Sem2;
 
-public class Doctor extends Medic implements Treatment, Servisable {
+public class Doctor extends Medic implements Treatment, Service {
 
 
     public Doctor(String name, String spetiality) {

@@ -1,6 +1,6 @@
 package Seminars.Sem2;
 
-public interface Servisable {
+public interface Service {
     void meetPatients();
     void prepareDocuments();
     void makeInjection(); //делать укол

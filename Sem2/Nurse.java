@@ -1,6 +1,6 @@
 package Seminars.Sem2;
 
-public class Nurse extends Medic implements Servisable {
+public class Nurse extends Medic implements Service {
 
 
     public Nurse(String name, String spetiality) {
