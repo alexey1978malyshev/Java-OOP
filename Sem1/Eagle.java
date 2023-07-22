@@ -1,4 +1,4 @@
-package Seminars;
+package Seminars.Sem1;
 
 public class Eagle extends Animal{
     private int wingspan;

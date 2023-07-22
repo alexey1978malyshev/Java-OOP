@@ -1,7 +1,6 @@
-package Seminars;
+package Seminars.Sem1;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.print.Doc;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,10 +28,17 @@ public class Main {
 
 //        System.out.println(lstAnimals);
 //        System.out.println(musya.getType("с арг "));
-        cat.toGo();
-        dog.goForWalk();
-        eagle.toFly();
-        salmon.swimToHome();
+//        cat.toGo();
+//        dog.goForWalk();
+//        eagle.toFly();
+//        salmon.swimToHome();
+
+        Doctor terapevt = new Doctor("Иван Иванович", "терапевт");
+        System.out.println(terapevt.toString());
+        Nurse nurse = new Nurse("Лариса Ивановна", "лаборант");
+        System.out.println(nurse.toString());
+
+
 
 
 
