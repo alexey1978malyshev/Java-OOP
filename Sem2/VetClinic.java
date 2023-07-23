@@ -61,6 +61,8 @@ public class VetClinic {
     }
 
 
+
+
 //    public List<Flyable> getFlyingAnimals(){
 //        List<Flyable> result = new ArrayList<>();
 //        for (Animal a :

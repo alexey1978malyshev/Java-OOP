@@ -20,7 +20,9 @@ public class Main {
         System.out.println(clinic.getSwimingAnimals());
         System.out.println(clinic.getTalkingAnimals());
 
-
+        Cat cat2 = new Cat("Murka", "Pyotr");
+        cat2.setRunSpeed(12);
+        System.out.println(cat2.getRunSpeed() + "km/h");
 
 
 
